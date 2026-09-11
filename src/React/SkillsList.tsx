@@ -17,18 +17,18 @@ const SkillsList = () => {
 
   const skills = {
     "Web Development": [
-      "Single Page Applications (SPAs)",
-      "Landing pages and business websites",
-      "Portfolio websites",
+      "Scalable React & TypeScript applications",
+      "Complex, data-driven forms & workflows",
+      "Accessible, tested & maintainable interfaces",
     ],
     "Mobile Development": [
       "Mobile-friendly web apps",
-      "React Native mobile apps",
     ],
-    "UI/UX Design & Prototyping": [
-      "UI design with Figma & Canva",
-      "UX research & improvements",
-      "Prototyping for websites & mobile apps",
+    "UI/UX Design": [
+      "Translating complex requirements into intuitive experiences",
+      "Design system & component-driven UI",
+      "Collaborating with product & design",
+      "UX improvements",
     ],
   };
 
