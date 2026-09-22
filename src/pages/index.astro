@@ -7,7 +7,19 @@ import Contact from "@/components/contact.astro";
 import Footer from "@/components/footer.astro";
 ---
 
-<Layout title="Your name">
+<script>
+  const originalTitle = document.title;
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      document.title = "Still exploring? | Rachele Edwards";
+    } else {
+      document.title = originalTitle;
+    }
+  });
+</script>
+
+<Layout title="Rachele Edwards">
   <Nav />
   <Home />
   <Projects />
